@@ -35,9 +35,9 @@ RUN pip3 install \
     pyyaml==3.13 \
     requests==2.21.0 \
     Pillow==5.4.1 \
-    tensorflow==1.12.0 \
-    tensorflow-probability==0.5.0 \
-    keras==2.2.4 \
+    tensorflow \
+    tensorflow-probability \
+    keras \
     --no-cache-dir
 USER root
 RUN install2.r reticulate tensorflow keras
