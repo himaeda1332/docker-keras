@@ -1,4 +1,4 @@
-FROM rocker/rstudio-ml-rstan:latest
+FROM himaeda1332/rstudio-ml-rstan:latest
 LABEL maintainer="himaeda@umich.edu"
 
 ENV DEBCONF_NOWARNINGS yes
